@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio-project</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Ankit Kumar</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                
+            </ul>
+           
+        </nav>
+    </header>
+
+    <main>
+        <h2>
+            Welcome to my portfolio project
+        </h2>
+        <article>
+            Hello! I'm Ankit Kumar, a passionate developer with a knack for creating innovative solutions.
+            This portfolio showcases some of my best work and highlights my skills in web development, 
+            programming, and design. Feel free to explore my projects and get in touch if you'd like to collaborate!
+        </article>
+    </main>
+
+    <section id="about">
+        <h2>
+            About Me
+        </h2>
+        <img src="images\profile_picture.jpg" alt="profile picture" />
+        <p>
+            I am a software developer with experience in building
+            web applications using modern technologies. 
+            I enjoy learning new programming languages
+            and frameworks, and I am always looking for opportunities to improve my skills.  
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A personal portfolio website to showcase my projects and skills.</p>
+            </li>
+            <li>
+                <h3>Project 2: Task Manager App</h3>
+                <p>A web application to help users manage their tasks efficiently.</p>
+            </li>
+            <li>
+                <h3>Project 3: E-commerce Platform</h3>
+                <p>An online platform for buying and selling products.</p>
+            </li>
+        </ul>
+    </section>
+   
+
+    <section>
+        <h2>Technical Skills</h2>
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>   
+                  
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>learning</td>       
+            </tr>
+        </table>
+         
+    </section>
+
+    <section id="contact">
+        <h2 >Contact  Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"  placeholder="Enter Your Name"  required/>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required />
+            <br>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter Your Message" required></textarea>
+            <br>
+            <br>
+            <button type="submit">Send</button>
+            <br>
+        </form>
+    </section>
+        
+    <footer>
+        <p>&copy; 2024 Ankit Kumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
