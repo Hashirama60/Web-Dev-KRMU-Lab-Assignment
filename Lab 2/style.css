@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeae4;
+}
+
+header,nav,footer{
+    background-color: #087aeb;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+    
+    
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#about{
+    
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #087aeb;
+    border-radius: 10px;
+    background-color: #e3f2fd;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+    border: 4px solid #087aeb;
+}
+
+table, th, td {
+    border: 2px solid rgb(26, 158, 224);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+table{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+th{
+    background-color: #087aeb;
+    color: whitesmoke;
+}
+
+h2
+{
+    
+    text-align: center;
+}
+
+.project{
+    border: 2px solid #087aeb;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #e3f2fd;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+.project_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#contact{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #087aeb;
+    border-radius: 10px;
+    background-color: #e3f2fd;
+    width: fit-content;
+    height: fit-content;
+
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    background-color: #087aeb;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#backtotop{
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+}
