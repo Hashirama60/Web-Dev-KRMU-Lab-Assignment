@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/learnhub.png" alt="LearnHub Logo" width="50" height="50">
+                <h1>LearnHub</h1>
+            </div>
+            <nav aria-label="Primary navigation">
+                <ul>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#opinions">opinions</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="main-banner">
+            <div class="container">
+                <h2>Unlock Your Potential with Expert-Led Courses</h2>
+                <p>Learn from industry professionals and advance your career today.</p>
+                <a href="#courses" class="cta-button">Explore Courses</a>
+            </div>
+        </section>
+
+        <section id="courses" class="courses">
+            <div class="container">
+                <h2>Featured Courses</h2>
+                <div class="course-grid">
+                    <article class="course-card">
+                        <img src="images/web_development.png" alt="Web Development Course Thumbnail">
+                        <h3>Web Development Basics</h3>
+                        <p>Master HTML, CSS, and JavaScript in 8 weeks.</p>
+                        <a href="#" class="card-link">Enroll Now</a>
+                    </article>
+                    <article class="course-card">
+                        <img src="images/Data_Science.jpg" alt="Data Science Course Thumbnail">
+                        <h3>Data Science Essentials</h3>
+                        <p>Dive into Python, ML, and analytics.</p>
+                        <a href="#" class="card-link">Enroll Now</a>
+                    </article>
+                    <article class="course-card">
+                        <img src="images/Ai.webp" alt="UX Design Course Thumbnail">
+                        <h3>AI/ML</h3>
+                        <p>Dive into the future.</p>
+                        <a href="#" class="card-link">Enroll Now</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="opinions" class="opinions">
+            <div class="container">
+                <h2>What Our Students Say</h2>
+                <ul class="opinions-list">
+                    <li>
+                        <blockquote>"LearnHub transformed my career! The courses are top-notch."</blockquote>
+                        <cite>- Anand Utkarsh, Web Developer</cite>
+                       
+                    </li>
+                    <li>
+                        <blockquote>"Incredible instructors and flexible learning."</blockquote>
+                        <cite>- Amandeep Kumar, Data Analyst</cite>
+                        
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <h2>Pricing Plans</h2>
+                <div class="pricing-grid">
+                    <article class="pricing-card">
+                        <h3>Basic</h3>
+                        <p class="price">$9/month</p>
+                        <ul>
+                            <li>Access to 5 courses</li>
+                            <li>Community support</li>
+                            <li>Certificate of completion</li>
+                        </ul>
+                        <a href="#" class="cta-button">Sign Up</a>
+                    </article>
+                    <article class="pricing-card">
+                        <h3>Pro</h3>
+                        <p class="price">$29/month</p>
+                        <ul>
+                            <li>Unlimited courses</li>
+                            <li>1-on-1 mentoring</li>
+                            <li>Advanced certificates</li>
+                        </ul>
+                        <a href="#" class="cta-button">Sign Up</a>
+                    </article>
+                    <article class="pricing-card">
+                        <h3>Enterprise</h3>
+                        <p class="price">$99/month</p>
+                        <ul>
+                            <li>All Pro features</li>
+                            <li>Team management</li>
+                            <li>Custom training</li>
+                        </ul>
+                        <a href="#" class="cta-button">Sign Up</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Your message..."></textarea>
+                    
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LearnHub</h3>
+                    <p>Empowering learners worldwide.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#opinions">opinions</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <a href="#" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" role="img" focusable="false">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg width="24" height="24" viewBox="0 0 24 24" role="img" focusable="false">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <p>&copy; 2023 LearnHub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
